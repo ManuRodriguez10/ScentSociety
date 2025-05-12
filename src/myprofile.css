@@ -1,0 +1,28 @@
+/* src/myprofile.css */
+.myprofile-container {
+    max-width: 600px;
+    margin: 3rem auto;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-family: sans-serif;
+  }
+  
+  .myprofile-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  .profile-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+  }
+  
+  .profile-info label {
+    font-weight: bold;
+  }
+  

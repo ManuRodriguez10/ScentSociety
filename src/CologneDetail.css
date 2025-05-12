@@ -1,0 +1,162 @@
+/* src/CologneDetail.css */
+
+.detail-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #004080;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  .detail-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  
+  .image-wrapper {
+    flex: 1 1 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .detail-image {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+    background-color: transparent;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #004080;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    z-index: 1;
+  }
+  
+  .carousel-button:hover {
+    background: #002f5f;
+  }
+  
+  .carousel-button.left {
+    left: -20px;
+  }
+  
+  .carousel-button.right {
+    right: -20px;
+  }
+  
+  .thumbnail-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .thumbnail-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s, transform 0.2s;
+    border: 2px solid transparent;
+  }
+  
+  .thumbnail-image:hover {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  
+  .thumbnail-image.active {
+    opacity: 1;
+    border-color: #004080;
+  }
+  
+  .info-wrapper {
+    flex: 1 1 400px;
+  }
+  
+  .detail-title {
+    font-size: 2.5rem;
+    margin: 0 0 0.5rem;
+  }
+  
+  .detail-price {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0 0 1rem;
+  }
+  
+  .detail-notes {
+    margin-bottom: 1.5rem;
+  }
+  
+  .note-tag {
+    display: inline-block;
+    margin: 0.25rem;
+    padding: 0.4rem 0.8rem;
+    background: #e0f4ff;
+    color: #004080;
+    border-radius: 9999px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+  }
+  
+  .detail-description {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .add-button {
+    padding: 0.75rem 1.5rem;
+    background: #004080;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .add-button:hover {
+    background: #003366;
+  }
+  
+  .loading {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+  }
+  .popup-message {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: green;
+  }
+  
+  
